@@ -17,7 +17,7 @@ Nesse caso, no terminal rode o comando:
 
 `python3` --> *informa a versão do python que quer usar;*
 `-m venv` --> *chama a biblioteca de criação de ambiente virtuais em python;* e
-`venv` --> *dar o nome de 'venv' ao diretório do ambiente virtual.*
+`venv` --> *dá o nome de 'venv' ao diretório do ambiente virtual.*
 
 Ative o ambiente virtual recém criado com: 
 `source venv/bin/activate`
