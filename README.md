@@ -6,21 +6,27 @@ Script comparar duas listas de arquvos .TXT.
 
 Use o comando:
 
-`git clone https://github.com/msrogerio/tantalo.git`
+`git clonehttps://github.com/msrogerio/virgilio.git`
 
 
 ### 2. Execute o script:
 
-Na pasta com arquivo .py execute o script com:
+Faz sentido criar um ambiente virtual para instalar a biblioteca de remoção de caracteres especiais. 
+Nesse caso, no terminal rode o comando:
+`python3 -m venv venv`
 
-`python3 tantalo.py`
+`python3` --> *informa a versão do python que quer usar;*
+`-m venv` --> *chama a biblioteca de criação de ambiente vituais em python;* e
+`venv` --> *dar o nome de 'venv' ao diretório do ambiente virtual.*
 
-Será solicitado o caminho absoluto do aquivo requirements.txt. Use o `pwd` (linux e mac) ou `dir` (windows) para copiar o caminho absoluto do arquivo. 
+Ative o ambiente virtual recém criado com: 
+`source venv/bin/activate`
 
-Dever ser informado algo como:
+Instale a(s) biblioteca(s) exigidas pelo projeto:
+`pip install -r requirements.txt`
 
-*/home/meu-usuario/apps/requirements.txt*
-
+No arquivo `run.py` informe os arquivos a serem consulmidos, em seguida execute:
+`python3 run.py`
 
 ### Autor
 

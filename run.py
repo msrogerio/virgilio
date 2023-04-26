@@ -42,12 +42,12 @@ with open('efetivo-limpo.txt', "r") as arquivo:
 with open('nomes.txt', "r") as arquivo:
     arquivo_dois = arquivo.read()
 
-nao_tem_certificados = []
+diferentes = []
 
 arquivo_um = arquivo_um.split("\n")
 for i in arquivo_um:
     if not i in arquivo_dois:
-        nao_tem_certificados.append(i)
+        diferentes.append(i)
 
-print(nao_tem_certificados)
-print(len(nao_tem_certificados))
+print(diferentes)
+print(len(diferentes))
